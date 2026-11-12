@@ -4,9 +4,9 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #eef3f7;
-  color: #17212b;
+  font-family: Apple Chancery, cursive;
+  background: #FAFFC4;
+  color: #28262C;
 }
 
 .container {
@@ -20,14 +20,14 @@ header {
 }
 
 .identificacao {
-  color: #005ca9;
+  color: #28262C;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 2px;
 }
 
 h1 {
-  color: #005ca9;
+  color: #28262C;
   margin-bottom: 8px;
 }
 
@@ -35,7 +35,7 @@ h1 {
   background: white;
   padding: 22px;
   border-radius: 12px;
-  box-shadow: 0 4px 18px #00000018;
+  box-shadow: 0 4px 18px #00000034;
 }
 
 .foto-area {
@@ -47,29 +47,29 @@ h1 {
 
 #foto-principal {
   width: 100%;
-  max-width: 650px;
-  height: 380px;
+  max-width: 200px;
+  height: 650px;
   object-fit: cover;
   border-radius: 8px;
-  background: #dce5eb;
+  background: #FAFFC4;
 }
 
 button {
   border: 0;
   border-radius: 6px;
   padding: 12px 16px;
-  background: #005ca9;
+  background: #89A6FB;
   color: white;
   cursor: pointer;
   font-weight: bold;
 }
 
 button:hover {
-  background: #00477f;
+  background: #5f74af;
 }
 
 button:focus-visible {
-  outline: 3px solid #27b3b0;
+  outline: 3px solid #E0777D;
   outline-offset: 3px;
 }
 
